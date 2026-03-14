@@ -4,18 +4,15 @@ public class Star {
 
     public static void main(String[] args) {
 
-        // upper half
         for (int i = 1; i <= PATTERN_HEIGHT; i++) {
             printRow(i);
         }
 
-        // lower half
         for (int i = PATTERN_HEIGHT - 1; i >= 1; i--) {
             printRow(i);
         }
     }
 
-    // method to print a single row
     private static void printRow(int i) {
 
         for (int s = 1; s <= PATTERN_HEIGHT - i; s++) {
