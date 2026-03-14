@@ -2,7 +2,14 @@ public class Star {
             private static final int PATTERN_HEIGHT = 5; // height of Star Pattern
 
     public static void main(String[] args) {
+for (int i = 1; i <= PATTERN_HEIGHT; i++) {
+            printRow(i);
+        }
 
+        for (int i = PATTERN_HEIGHT - 1; i >= 1; i--) {
+            printRow(i);
+        }
+    }
  
         private static void printRow(int i) {
 
