@@ -1,19 +1,13 @@
+The upper half shows the stars moving apart as the spaces between them increase.
 
+The lower half brings the stars back together in the same way.
 
-The program breaks the pattern up into two parts:
+To keep the pattern centered, leading spaces (n - i) are printed before the stars.
 
-The upper half shows stars moving apart as the spaces between them get bigger.
+The inner spaces (2 * i - 3) create the hollow area between the two stars.
 
-The stars move back together symmetrically in the lower half.
+Key Concepts Used:
 
-To center the pattern, use leading spaces (n - i).
+Nested for loops
 
-The empty space between stars is made up of inner spaces
-(2 * i - 3).
-
-Important Ideas Used :
-
--For loops that are nested
-
--Statements that depend on conditions
-
+Conditional (if) statements
