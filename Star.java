@@ -1,14 +1,16 @@
 public class Star {
+            private static final int PATTERN_HEIGHT = 5; // height of Star Pattern
+
     public static void main(String[] args) {
 
-        int n = 5; // height of Star Pattern
 
         // Upper part of Star Pattern
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= PATTERN_HEIGHT; i++) {
 
+            
             // print spaces to center the stars
 
-            for (int s = 1; s <= n - i; s++) {
+            for (int s = 1; s <= PATTERN_HEIGHT - i; s++) {
                 System.out.print(" ");
             }
 
@@ -25,9 +27,9 @@ public class Star {
         }
 
         // Lower half of Star Pattern
-        for (int i = n - 1; i >= 1; i--) {
+        for (int i = PATTERN_HEIGHT - 1; i >= 1; i--) {
 
-            for (int s = 1; s <= n - i; s++) {
+            for (int s = 1; s <= PATTERN_HEIGHT - i; s++) {
                 System.out.print(" ");
             }
 
