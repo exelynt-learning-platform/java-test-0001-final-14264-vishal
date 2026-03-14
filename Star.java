@@ -6,6 +6,7 @@ public class Star {
             for(int s=1; s<=n-i; s++){
                 System.out.print(" ");
             }
+            System.out.println("*");
         }
     }
 }
